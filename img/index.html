@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML basico</title>
+</head>
+<body>
+    <h1>HTML Básico</h1>
+    <h2>Aqui esta um resumo de todo o conteudo das aulas até agora.</h2>
+    <img src="imagem_html_css_js.gif" alt="Imagem ilustrativa sober HTML/CSS/Javascript">
+    <hr />
+    <h3>Estrutura dos arqivos em um projeto Web</h3>
+
+    <p>
+      Para todo projeto de <em>software</em> existem algumas recomendações, ao
+      construir um <strong>Web Site</strong> ou uma
+      <strong>Aplicação Web</strong> vamos utilizar vários tipos de arquivos
+      diferentes.
+    </p>
+    <p>
+      Nomes de arquivos e pastas dever ser escritos em letras minúsculas, sem
+      espaços e sem caracteres especiais.
+    </p>
+    <p>
+      É recomendado que exista uma página inicial dentro de um arquivo chamado
+      <em>index.html</em>
+    </p>
+    <p>
+      Dentro da pasta do projeto é recomendado que sejam criadas mais algumas
+      pastas com a finalidade de organizar os arquivos do projeto.
+    </p>
+
+    <img src="PastasProjeto (1).png" alt="Modelo de Pastas de um projeto Web" />
+
+
+    <hr />
+    <h3>Documento HTML</h3>
+    <p>A linguagem HTML (Hypertext Markup Language ) tem o objetivo de formatar textos através de marcações especiais denominadas tags. Documentos HTML são arquivos de texto <a href="https://pt.wikipedia.org/wiki/Arquivo_de_texto" target="_blank">ASCII</a>. Todos os arquivos devem possuir a extensão <mark>.html</mark></p>
+    <p>O HTML não faz diferença entre letras minúsculas ou maiúsculas em suas marcações, mas recomenda-se usar as tags em letras minusculas</p>
+    <h4>Sintaxe do HTML</h4>
+    <p>A sintaxe geral de uma tag é :</p>
+    <img src="exemploTag.png" alt="Exemplo de um par de tags">
+    <p>E de modo geral as tags aparecem em pares. </p>
+    <img src="tagP_Exemplo (1).png" alt="">
+    <p>As tags podem possuir atributos, cada atributo tem um nome e uma funcao diferente. Nas figura abaixo temos a tag img com o atributo <strong>src</strong> que serve para indicar a origem da imagem e a tag <strong>alt</strong> onde escrevemos um texto alternativo que aparece na tela quando a imagem não é carregada. </p>
+    <img src="TagImgComAtributos.png" alt="Tag img com atributos">
+
+    <h4>Estrura Básica de um aquivo HTML</h4>
+    <p>Na figura abaixo temos a estrutura básica de um arquivo HTML.</p>
+    <img src="EstrturaBasicaHTML.png" alt="Imagem com a estrutura básica de um arquivo HTML">
+    <p>Caso queira saber mais clique na imagem abaixo ou aponte a camera do seu celular para o qrcode.</p>
+  
+    <a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" target="_blank"><img src="HTM5.jpg" alt="Icone do HTML5"></a>
+    <img src="qrCodeMaisSobreHTML_P.png" alt="QR Code">
+
+    
+    <hr>
+    <h3>Algumas tag básicas</h3>
+    <h4>Tag  para Títulos</h4>
+    <p>As tags abaixo sever para criar títulos, os títulos possuem uma hierarquia.</p>
+    <img src="tagstitulos.jpeg" alt="Tags para títulos">
+
+    <img src="titulos.jpeg" alt="Resultado das tags para títulos">
+    
+    <h4>Tag para Parágrafo</h4>
+    <p>A tag abaixo sever para criar um paragrafgo.</p>
+    <img src="tagP_Exemplo (1).png" alt="Tag para parágrafo">
+    
+    <h4>Negrito, itálico, marcar texto, sobrescrito e subscrito</h4>
+    <h5>Negrito e <em>Itálico</em></h5>
+    <p>Para deixar um texto em negrito é utilizada a tag <strong>strong</strong> que da um significado semântico.</p>
+    <p>Pra deixa um texto em <em>itálico</em> usa-se a tag <em>em</em> o que mostra que queremos dar ênfase ao texto.</p>
+    <h5><mark>Marcador de texto</mark></h5>
+    <p>Utiliza-se a tag <strong>mark</strong> para delimitar um <mark>trecho de texto para marcar</mark>.</p>
+    <h5>Sobrescrito e subscrito</h5>
+    <p>A tag <strong>sub</strong> coloca o um texto em subscrito, exemplo H<sub>2</sub>SO<sub>4</sub>. A tag <strong>sup</strong> coloca um texto em sobrescrito, exemplo X<sup>3</sup>+Y<sup>2</sup></p>
+
+
+    <h4>Icone da Pagina</h4>
+    <p>Para colocar um icone na página o ideal é ter um arquivo de 16 x 16 pixels ou 32 x 32 pixels e utilizamos a tag link dentro do <em>head</em>.</p>
+    <img src="linkFavIcon.png" alt="Tag link para o Favicon">
+
+    <h4>Colocando imagens</h4>
+    <p>Para colocar imagens na pagina utilizamos a tag <strong>img</strong>. Esta tag possui o parâmetro <strong>src</strong> onde colocamos o endereço da imagem a ser mostrada, e o parâmetro <strong>alt</strong> onde escrevemos um texto alternativo para o caso da imagem não carregar. A imagem pode estar na pasta <strong>img</strong> do projeto ou pode estar online, neste caso colocamos o endereco da imagem na internet.</p>
+    <img src="resultadostitulos.jpeg" alt="Tag img para imagens">
+
+    <h4>Criando links</h4>
+    <p>Para criar links utliza-se a tag <strong>a</strong>, esta tag pode ser colocada em qualquer lugar da página, e até mesmo dentro de outra tag, o link pode ser para uma página do seu projeto ou para uma página externa, ela possui um parâmetro chamado <strong>target</strong>, esse parametro indica como a página do link será aberta.</p>
+    <img src="tagLink_blank.png" alt="Tag para link ">
+    <p>O parâmetro <strong>target</strong> pode assumir o valor <strong>"_blank"</strong> que faz a página abrir em outra aba, caso omitido ele assume o valor de <strong>"_self"</strong>, que indica que a página será aberta na mesma aba da página atual.</p>
+    <p>Para saber mais sobre como usar esta tag, <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target="_blank">clique aqui</a>.</p>
+
+    <hr>
+    <h3>Aqui estão alguns links interessantes para estudar HTML.</h3>
+    <p>Link da W3C, organização de padronização da <em>World Wide Web</em>. Consiste em um consórcio internacional com mais de 450 membros, agrega empresas, órgãos gorvernamentais e organizações intependentes.</p>
+    <p><a href="https://www.w3.org/" target="_blank">Link da W3C</a></p>
+    <p><a href="https://pt.wikipedia.org/wiki/W3C" target="_blank">Link do Wikipedia da W3C</a></p>
+    <p>Aqui tem um link para a pagina <a href="https://developer.mozilla.org/pt-BR/" target="_blank">developer.mozilla.org</a>, esse link é muito útil para consultar a sintaxe do HTML, CSS e JavaScript.</p>
+    <p>Aqui tem um link para o <a href="https://www.w3schools.com/" target="_blank">W3Shools.com</a>, esse link é muito util para aprender e testar a sintaxe de várias linguagens, inclusive HTML, CSS e JavaScript.</p>
+    <hr>
+    <h3>Psicologia das Cores</h3>
+    <p>Este conteudo abaixo não fez parte do HTML Básico, os links falam sobre a Psicologia das Cores, este assunto é interessante e ajuda a criar páginas mais bonitas e com cores possuem algum significado.</p>
+    
+    <p><a href="https://repositorio.uniceub.br/jspui/handle/prefix/14032" target="_blank">https://repositorio.uniceub.br/jspui/handle/prefix/14032</a></p>
+    <p><a href="https://idonline.emnuvens.com.br/id/article/view/1175" target="_blank">https://idonline.emnuvens.com.br/id/article/view/1175</a></p>
+    <p><a href="https://www.bocc.ubi.pt/pag/fidalgo-antonio-percepcao-na-rede.pdf" target="_blank">https://www.bocc.ubi.pt/pag/fidalgo-antonio-percepcao-na-rede.pdf</a></p>
+    <p><a href="https://www.matildefilmes.com.br/psicologia-das-cores-guia-avancado-para-profissionais/" target="_blank">https://www.matildefilmes.com.br/psicologia-das-cores-guia-avancado-para-profissionais/</a></p>
+    <p><a href="https://www.colab55.com/collections/como-usar-o-circulo-cromatico-para-escolher-as-cores-na-decoracao" target="_blank">https://www.colab55.com/collections/como-usar-o-circulo-cromatico-para-escolher-as-cores-na-decoracao</a></p>
+    <p><a href="https://www.suvinil.com.br/blog/circulo-cromatico" target="_blank">https://www.suvinil.com.br/blog/circulo-cromatico</a></p>
+    <p><a href="https://ebaconline.com.br/blog/circulo-cromatico-seo" target="_blank">https://ebaconline.com.br/blog/circulo-cromatico-seo</a></p>
+    <p><a href="https://color.adobe.com/pt/" target="_blank">https://color.adobe.com/pt/</a></p>
+
+  
+
+</body>
+</html>
